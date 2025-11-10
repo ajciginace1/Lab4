@@ -1,7 +1,7 @@
 /**
  * Lab 4 - BankAccount
  * Author: Edisson Ajciginac
- *
+ * Author: Servando Lozoya
  *  A bank account class wich stores an account number, the current balance, and a statement of the transaccions.
  * Uses StringBuilder for the statement and Calendar for timestamps.
  */
@@ -104,4 +104,5 @@ public class BankAccount {
         while (s.length() < width) s = "0" + s;
         return s;
     }
+
 }
